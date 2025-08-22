@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ExternalLink, Github, Filter } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 
 const Projects = () => {
   const [selectedFilter, setSelectedFilter] = useState('All');
@@ -7,21 +7,30 @@ const Projects = () => {
   const projects = [
     {
       name: "Salary Prediction Model",
-      description: "A machine learning model that predicts salaries based on experience, location, and skills using linear regression and deployed with Flask.",
+      description: "A machine learning model that predicts salaries based on experience, location, and skills using linear regression. Deployed with Flask on Render.",
       image: "https://images.pexels.com/photos/3778876/pexels-photo-3778876.jpeg?auto=compress&cs=tinysrgb&w=500",
       technologies: ["Python", "Scikit-learn", "Flask", "Pandas"],
       tags: ["Regression", "Deployment"],
-      github: "https://github.com/justus/salary-prediction",
-      live: "https://salary-predictor.herokuapp.com"
+      github: "https://github.com/Ajay-hum/salary-predictor",
+      live: "https://salary-predictor-5txl.onrender.com"
     },
     {
       name: "Iris Flower Classification",
-      description: "Deep learning model for classifying iris flowers with 95% accuracy using Keras and neural networks.",
+      description: "Deep learning model for classifying iris flowers with 95% accuracy using Keras and neural networks. Deployed with Streamlit on Render.",
       image: "https://images.pexels.com/photos/56875/tree-oak-landscape-view-56875.jpeg?auto=compress&cs=tinysrgb&w=500",
-      technologies: ["Python", "Keras", "TensorFlow", "NumPy"],
+      technologies: ["Python", "Keras", "TensorFlow", "Streamlit"],
       tags: ["Classification", "Deep Learning"],
-      github: "https://github.com/justus/iris-classification",
-      live: "https://iris-classifier.netlify.app"
+      github: "https://github.com/Ajay-hum/iris-classification",
+      live: "https://iris-classification-0rxj.onrender.com"
+    },
+    {
+      name: "House Price Prediction",
+      description: "A machine learning model that predicts housing prices using regression and feature engineering techniques. Deployed with Streamlit on Render.",
+      image: "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&w=500",
+      technologies: ["Python", "Scikit-learn", "Streamlit", "Pandas"],
+      tags: ["Regression", "Deployment"],
+      github: "https://github.com/Ajay-hum/house-price-prediction",
+      live: "https://house-price-prediction-4ie4.onrender.com"
     },
     {
       name: "Supermarket Sales EDA",
@@ -29,7 +38,7 @@ const Projects = () => {
       image: "https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=500",
       technologies: ["Python", "Pandas", "Seaborn", "Matplotlib"],
       tags: ["EDA", "Data Visualization"],
-      github: "https://github.com/justus/supermarket-eda",
+      github: "https://github.com/Ajay-hum/supermarket-eda",
       live: "https://supermarket-analysis.netlify.app"
     },
     {
@@ -38,7 +47,7 @@ const Projects = () => {
       image: "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=500",
       technologies: ["React", "TypeScript", "Tailwind CSS", "AI APIs"],
       tags: ["Frontend", "AI", "Social Platform"],
-      github: "https://github.com/justus/curatechain",
+      github: "https://github.com/Ajay-hum/curatechain",
       live: "https://curatechain.netlify.app"
     }
   ];

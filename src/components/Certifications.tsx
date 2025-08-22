@@ -5,9 +5,9 @@ const Certifications = () => {
   const certifications = [
     {
       title: "Yomi Denzel Foundation",
-      subtitle: "Python, ML & Blockchain Development",
+      subtitle: "Python, ML & Data science",
       period: "Aug,2023 - Mar,2024",
-      description: "Comprehensive training in Python programming, machine learning algorithms, and blockchain technology fundamentals.",
+      description: "Comprehensive training in Python programming, machine learning algorithms, and data science.",
       status: "Completed",
       link: "#"
     },
@@ -27,14 +27,14 @@ const Certifications = () => {
       status: "In Progress",
       link: "#"
     },
-    {
-      title: "AWS Certification",
-      subtitle: "Machine Learning/Artificial Intelligence Engineering",
-      period: "Jul,2025 - Aug,2025",
-      description: "Currently working towards TensorFlow certification to validate deep learning and neural network skills.",
-      status: "In Progress",
-      link: "#"
-    }
+    // {
+    //   title: "AWS Certification",
+    //   subtitle: "Machine Learning/Artificial Intelligence Engineering",
+    //   period: "Jul,2025 - Aug,2025",
+    //   description: "Currently working towards TensorFlow certification to validate deep learning and neural network skills.",
+    //   status: "In Progress",
+    //   link: "#"
+    // }
   ];
 
   return (

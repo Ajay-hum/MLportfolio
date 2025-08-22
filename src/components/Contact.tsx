@@ -49,7 +49,7 @@ const Contact = () => {
             <div className="space-y-4 mb-8">
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-blue-600 dark:text-blue-400 mr-3" />
-                <span className="text-gray-700 dark:text-gray-300">justus.chimeremueze@example.com</span>
+                <span className="text-gray-700 dark:text-gray-300">justuschimeremueze@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-blue-600 dark:text-blue-400 mr-3" />
@@ -63,7 +63,7 @@ const Contact = () => {
 
             <div className="flex space-x-4">
               <a
-                href="https://github.com/justus"
+                href="https://github.com/Ajay-hum"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-200"
@@ -71,7 +71,7 @@ const Contact = () => {
                 <Github className="h-5 w-5 text-gray-700 dark:text-gray-300" />
               </a>
               <a
-                href="https://linkedin.com/in/justus"
+                href="https://www.linkedin.com/in/justus-asogwa-726427293"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors duration-200"
@@ -96,7 +96,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
-                  placeholder="Your name"
+                  placeholder="Asogwa Justus"
                 />
               </div>
 
@@ -112,7 +112,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
-                  placeholder="your.email@example.com"
+                  placeholder="justuschimeremueze@gmail.com.com"
                 />
               </div>
 

@@ -6,7 +6,7 @@ const About = () => {
     {
       title: "Yomi Denzel Foundation",
       period: "2023-2024",
-      description: "Python, ML & Blockchain Development",
+      description: "Python, ML & Data science",
       icon: <Brain className="h-6 w-6" />
     },
     {
