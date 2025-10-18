@@ -6,6 +6,15 @@ const Projects = () => {
 
   const projects = [
     {
+      name: "Multi-Agent-RAG(Retrieval Augmented Generation)",
+      description: "A sophisticated multi-agent system that leverages RAG architecture to enhance information retrieval and generation capabilities using LLMs.",
+      image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=500",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "AI APIs"],
+      tags: ["Python", "FastAPI", "AI", "RAG", "LLMs"],
+      github: "https://github.com/Ajay-hum/multi-agent-rag",
+      live: "#"
+    },
+    {
       name: "Salary Prediction Model",
       description: "A machine learning model that predicts salaries based on experience, location, and skills using linear regression. Deployed with Flask on Render.",
       image: "https://images.pexels.com/photos/3778876/pexels-photo-3778876.jpeg?auto=compress&cs=tinysrgb&w=500",
@@ -17,7 +26,7 @@ const Projects = () => {
     {
       name: "Iris Flower Classification",
       description: "Deep learning model for classifying iris flowers with 95% accuracy using Keras and neural networks. Deployed with Streamlit on Render.",
-      image: "https://images.pexels.com/photos/56875/tree-oak-landscape-view-56875.jpeg?auto=compress&cs=tinysrgb&w=500",
+      image: "https://images.pexels.com/photos/414660/pexels-photo-414660.jpeg?auto=compress&cs=tinysrgb&w=500",
       technologies: ["Python", "Keras", "TensorFlow", "Streamlit"],
       tags: ["Classification", "Deep Learning"],
       github: "https://github.com/Ajay-hum/iris-classification",
@@ -48,7 +57,7 @@ const Projects = () => {
       technologies: ["React", "TypeScript", "Tailwind CSS", "AI APIs"],
       tags: ["Frontend", "AI", "Social Platform"],
       github: "https://github.com/Ajay-hum/curatechain",
-      live: "https://curatechain.netlify.app"
+      live: "#"
     }
   ];
 
