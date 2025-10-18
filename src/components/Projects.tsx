@@ -9,7 +9,7 @@ const Projects = () => {
       name: "Multi-Agent-RAG(Retrieval Augmented Generation)",
       description: "A sophisticated multi-agent system that leverages RAG architecture to enhance information retrieval and generation capabilities using LLMs.",
       image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=500",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "AI APIs"],
+      technologies: ["Python", "AI APIs"],
       tags: ["Python", "FastAPI", "AI", "RAG", "LLMs"],
       github: "https://github.com/Ajay-hum/multi-agent-rag",
       live: "#"
